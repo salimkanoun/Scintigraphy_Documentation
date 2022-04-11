@@ -2,46 +2,93 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Presentation Possibilité
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Titre de niveau 2
 
-## Getting Started
+### Titre de niveau 3
 
-Get started by **creating a new site**.
+#### Titre de niveau 4 ne son pas dans le menu
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+## Code
+```jsx title="/src/components/HelloCodeTitle.js"
+function HelloCodeTitle(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+if (highlight) {
+    // highlight-next-line
+    return 'Ce texte est surligné !';
+  }
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Note
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### Note
+:::note remarque
 
-## Start your site
+Un peu de **contenu** avec la `syntaxe` _markdown_. Consultez [cette `api`](#).
 
-Run the development server:
+:::
 
-```bash
-cd my-website
-npm run start
-```
+### Tip
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+:::tip astuce
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Un peu de **contenu** avec la `syntaxe` _markdown_. Consultez [cette `api`](#).
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+:::
+
+### Info
+
+:::info
+
+Un peu de **contenu** avec la `syntaxe` _markdown_. Consultez [cette `api`](#).
+
+:::
+
+### Attention
+
+:::caution attention
+
+Un peu de **contenu** avec la `syntaxe` _markdown_. Consultez [cette `api`](#).
+
+:::
+
+### Danger
+
+:::danger
+Un peu de **contenu** avec la `syntaxe` _markdown_. Consultez [cette `api`](#).
+:::
+
+<!-- Prettier ne change pas ceci -->
+:::note
+Hello world
+:::
+
+import Tabs from '@theme/Tabs';
+
+import TabItem from '@theme/TabItem';
+
+:::tip Utiliser les onglets dans les admonitions
+
+<Tabs>
+  <TabItem value="apple" label="Apple">Ceci est une pomme 🍎</TabItem>
+  <TabItem value="orange" label="Orange">Ceci est une orange 🍊</TabItem>
+  <TabItem value="banana" label="Banana">Ceci est une banane 🍌</TabItem>
+</Tabs>
+
+:::
+
+## Image
+
+![Image exemple](../static/img/docusaurus.png 'Avec un titre')
+
+### .sgv
+
+![sgv exemple](../static/img/logo.svg)
+
+### Math
+
+$$
+I = \int_0^{2\pi} \sin(x)\,dx
+$$
