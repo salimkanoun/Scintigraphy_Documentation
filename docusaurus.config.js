@@ -3,11 +3,11 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const title = 'Appli.scinti';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Scintigraphy',
-  tagline: 'Scintigraphy are cool',
+  title: title,
+  tagline: 'Developing Applications in Nuclear Medicine',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -43,23 +43,34 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
-        logo: {
+        title: title,
+        /*logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
-        },
+        },*/
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
+            label: 'About us'
+          },{
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Our services'
+          },{
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
             label: 'Documentation'
           },{
-            to: 'download',
+            type: 'doc',
+            docId: 'intro',
             position: 'left',
-            label: 'Download'
+            label: 'Contact us'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
