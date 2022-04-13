@@ -4,32 +4,50 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Easy to install',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Quick and easy to install in just a few clicks on your PC...
+      </>
+    ),
+  },
+  {/*we&apos;ll*/
+    title: 'Useful everyday applications',
+    description: (
+      <>
+        Many applications available...
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Original tools',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Some tools are not available on the imaging consoles...
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Updated applications according to the latest guidelines',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Tools developed and updated according to the latest recommendations for each type of imagery...
+      </>
+    ),
+  },
+  {
+    title: 'Available in Open source!',
+    description: (
+      <>
+        It's free!
+      </>
+    ),
+  },
+  {
+    title: 'Possible evolutions and new tools to be developed!',
+    description: (
+      <>
+        Don't hesitate to come to us for ideas !
       </>
     ),
   },
@@ -38,9 +56,6 @@ const FeatureList = [
 function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
