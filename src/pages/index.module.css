@@ -21,3 +21,10 @@
   align-items: center;
   justify-content: center;
 }
+.avantFeature{
+  background-color: rgb(36, 52, 145);
+ 
+  padding-bottom: 100px;
+  margin-bottom: -150px;
+  color:rgb(255, 255, 255);
+}

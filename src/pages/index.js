@@ -33,6 +33,11 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
+      <div className={styles.avantFeature}>
+          <h1>Our Services</h1>
+            <p>Need a Scintigraphy Applicaiton?</p>
+            <p>  We have developped several tools for image processing in Scintigraphy.</p>
+      </div>
         <HomepageFeatures />
       </main>
     </Layout>
