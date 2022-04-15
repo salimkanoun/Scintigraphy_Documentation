@@ -11,8 +11,8 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className={styles.appli}>{siteConfig.title}</h1>
+        <p className={styles.tag}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -34,9 +34,9 @@ export default function Home() {
       <HomepageHeader />
       <main>
       <div className={styles.avantFeature}>
-          <h1>Our Services</h1>
-            <p>Need a Scintigraphy Applicaiton?</p>
-            <p>  We have developped several tools for image processing in Scintigraphy.</p>
+          <h1 className={styles.avantFeatureTitre}>Our Services</h1>
+            <p className={styles.avantFeatureText}>Need a Scintigraphy Applicaiton?</p>
+            <p className={styles.avantFeatureText}>  We have developped several tools for image processing in Scintigraphy.</p>
       </div>
         <HomepageFeatures />
       </main>
