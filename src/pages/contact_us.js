@@ -1,23 +1,33 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import styles from './index.module.css';
 
-export default function Hello() {
+
+function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
   return (
-
-    <Layout title="Hello" description="Hello React Page">
-      
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '50vh',
-          fontSize: '20px',
-        }}>
-         Page Contact us
+    <header >
+      <div className="container">
+        <h1 className={styles.appli}>Contact Us</h1>
       </div>
+    </header>
+  );
+}
+
+export default function Home() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <Layout
+      title={`Home ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
+      <HomepageHeader />
+      <main>
+      <div className={styles.aboutUsText}>
+      <p >Comment nous contacter…</p>
+      <p>different lien, mail...</p>
+        </div>
+      </main>
     </Layout>
   );
 }
