@@ -54,20 +54,18 @@ const config = {
             label: 'About us',
             position: 'left'
           },{
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Our services'
+            to: 'our_services',
+            label: 'Our services',
+            position: 'left'
           },{
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Documentation'
           },{
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Contact us'
+            to: 'contact_us',
+            label: 'Contact us',
+            position: 'left'
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
