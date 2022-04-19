@@ -50,10 +50,9 @@ const config = {
         },*/
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'About us'
+            to: 'about_us',
+            label: 'About us',
+            position: 'left'
           },{
             type: 'doc',
             docId: 'intro',
