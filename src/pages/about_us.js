@@ -16,17 +16,7 @@ export default function Hello() {
           height: '50vh',
           fontSize: '20px',
         }}>
-        <Tabs
-          defaultValue="apple"
-          values={[
-            {label: 'Apple', value: 'apple'},
-            {label: 'Orange', value: 'orange'},
-            {label: 'Banana', value: 'banana'},
-          ]}>
-          <TabItem value="apple">Ceci est une pomme 🍎</TabItem>
-          <TabItem value="orange">Ceci est une orange 🍊</TabItem>
-          <TabItem value="banana">Ceci est une banane 🍌</TabItem>
-        </Tabs>
+         Page About us
       </div>
     </Layout>
   );
