@@ -68,9 +68,7 @@ export default function Home() {
             Shijie TIAN</p>
             <p >
             Gaël BELLANGER</p>
-
-                </div>
-       
+        </div>
       </main>
     </Layout>
   );
