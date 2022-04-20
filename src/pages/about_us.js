@@ -22,8 +22,8 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-      <div className={styles.aboutUsText}>
-      <p >These apllications have been developed 
+      <div className={styles.text_para_pos}>
+      <p >These application have been developed 
           by many doctors with the help of students from the IUT of Computer Science 
           in Toulouse</p>
    

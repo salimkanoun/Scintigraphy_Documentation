@@ -23,8 +23,8 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-      <div className={styles.aboutUsText}>
-      <p >Comment nous contacter…</p>
+      <div className={styles.text_para_pos}>
+      <p>Comment nous contacter…</p>
       <p>different lien, mail...</p>
         </div>
       </main>
