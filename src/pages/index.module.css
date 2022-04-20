@@ -68,13 +68,10 @@
 .header{
   padding-left: 10%;
 }
-.aboutUsText{
-  
+.text_para_pos{
   padding-left: 12%;
   padding-top: 20px;
   padding-bottom: 100px;
-  
-  color:rgb(26, 25, 25);
-  font-family: serif;
   font-weight: 100;
+  font-family: serif;
 }
