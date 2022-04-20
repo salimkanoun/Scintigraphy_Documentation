@@ -9,7 +9,10 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header >
+        <div className={styles.avantAppli1} ></div>
+     <div className={styles.avantAppli2} ></div>
+     <br></br>
       <div className="container">
         <h1 className={styles.appli}>{siteConfig.title}</h1>
         <p className={styles.tag}>{siteConfig.tagline}</p>
