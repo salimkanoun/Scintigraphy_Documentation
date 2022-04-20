@@ -56,6 +56,18 @@
   font-size: 66px;
   margin-top: -200px;
 }
+.aboutUs{
+  background-color: rgb(242,242,242);
+  padding-right: 58%;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  padding-left: 5%;
+  color:rgb(26,43,109);
+  font-family: serif;
+  font-weight: lighter;
+  font-size: 66px;
+  
+}
 .tag{
   background-color: rgb(242,242,242);
   padding-left: 50%;
