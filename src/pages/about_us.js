@@ -34,18 +34,12 @@ export default function Home() {
           height: '13vh',
           fontSize: '30px',
         }}>Doctors ...</h1>
-            <p >Dr Salim KANOUN</p>
-            <p >
-            Dr Pierre PASCAL</p>
-            <p >
-            Dr Gérard VICTOR</p>
-            <p >
-            Dr Alina BERRIOLO</p>
-            <p >
-            Dr Olivier MOREL</p>
-            <p >
-            Dr Ilan TAL</p>
-            
+            <div>Dr Salim KANOUN</div>
+            <div>Dr Pierre PASCAL</div>
+            <div>Dr Gérard VICTOR</div>
+            <div>Dr Alina BERRIOLO</div>
+            <div>Dr Olivier MOREL</div>
+            <div>Dr Ilan TAL</div>
             <h1 style={{
           display: 'flex',
           justifyContent: 'center',
@@ -53,21 +47,14 @@ export default function Home() {
           height: '13vh',
           fontSize: '30px',
         }}>Students ...</h1>
-            <p >Titouan QUEMA</p>
-            <p >
-            Mathis MOHAND</p>
-            <p >
-            Ping XIE</p>
-            <p >
-            Esteban BAICHO</p>
-            <p >
-            Ruban GRES</p>
-            <p >
-            Diego ROMERO</p>
-            <p >
-            Shijie TIAN</p>
-            <p >
-            Gaël BELLANGER</p>
+            <p>Titouan QUEMA</p>
+            <p>Mathis MOHAND</p>
+            <p>Ping XIE</p>
+            <p>Esteban BAICHO</p>
+            <p>Ruban GRES</p>
+            <p>Diego ROMERO</p>
+            <p>Shijie TIAN</p>
+            <p>Gaël BELLANGER</p>
         </div>
       </main>
     </Layout>
