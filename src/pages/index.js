@@ -33,13 +33,13 @@ export default function Home() {
   return (
     <Layout
       title={`Home ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Description will go into a meta tag in <head/>">
       <HomepageHeader />
       <main>
       <div className={styles.avantFeature}>
           <h1 className={styles.avantFeatureTitre}>Our Services</h1>
             <p className={styles.avantFeatureText}>Need a Scintigraphy Application?</p>
-            <p className={styles.avantFeatureText}>  We have developped several tools for image processing in Scintigraphy.</p>
+            <p className={styles.avantFeatureText}>We have developped several tools for image processing in Scintigraphy.</p>
       </div>
         <HomepageFeatures />
       </main>
