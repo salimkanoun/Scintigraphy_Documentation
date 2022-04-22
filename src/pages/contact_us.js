@@ -9,7 +9,7 @@ function HomepageHeader() {
   return (
     <header >
       <div className="container">
-        <h1 className={styles.aboutUs}>Contact Us</h1>
+        <h1 className={styles.grandTitre}>Contact Us</h1>
       </div>
     </header>
   );
