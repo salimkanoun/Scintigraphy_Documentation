@@ -20,33 +20,48 @@ export default function Home() {
     <Layout
       title={`Home ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      <HomepageHeader/>
       <main>
-      <div className={styles.text_para_pos}>
-      <p >These application have been developed 
-          by many doctors with the help of students from the IUT of Computer Science 
-          in Toulouse</p>
-   
-          <h1 style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '13vh',
-          fontSize: '30px',
-        }}>Doctors ...</h1>
-            <div>Dr Salim KANOUN</div>
-            <div>Dr Pierre PASCAL</div>
-            <div>Dr Gérard VICTOR</div>
-            <div>Dr Alina BERRIOLO</div>
-            <div>Dr Olivier MOREL</div>
-            <div>Dr Ilan TAL</div>
+      <div class="container" className={styles.text_para_pos}>
+        <p >These application have been developed 
+            by many doctors with the help of students from the IUT of Computer Science 
+            in Toulouse</p>
+    
             <h1 style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '13vh',
-          fontSize: '30px',
-        }}>Students ...</h1>
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '13vh',
+            fontSize: '30px',
+          }}>Doctors</h1>
+          <div class="row">
+            <div class="col">
+              <div class="col-demo">Dr Salim KANOUN</div>
+            </div>
+            <div class="col">
+              <div class="col-demo">Dr Pierre PASCAL</div>
+            </div>
+            <div class="col">
+              <div class="col-demo">Dr Gérard VICTOR</div>
+            </div>
+            <div class="col">
+              <div class="col-demo">Dr Alina BERRIOLO</div>
+            </div>
+            <div class="col">
+              <div class="col-demo">Dr Olivier MOREL</div>
+            </div>
+            <div class="col">
+              <div class="col-demo">Dr Ilan TAL</div>
+            </div>
+          </div>
+              <h1 style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '13vh',
+            fontSize: '30px',
+          }}>Students</h1>
+          
             <p>Titouan QUEMA</p>
             <p>Mathis MOHAND</p>
             <p>Ping XIE</p>
