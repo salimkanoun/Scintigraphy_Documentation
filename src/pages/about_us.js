@@ -34,26 +34,15 @@ export default function Home() {
             height: '13vh',
             fontSize: '30px',
           }}>Doctors</h1>
-          <div class="row">
-            <div class="col">
-              <div class="col-demo">Dr Salim KANOUN</div>
-            </div>
-            <div class="col">
-              <div class="col-demo">Dr Pierre PASCAL</div>
-            </div>
-            <div class="col">
-              <div class="col-demo">Dr Gérard VICTOR</div>
-            </div>
-            <div class="col">
-              <div class="col-demo">Dr Alina BERRIOLO</div>
-            </div>
-            <div class="col">
-              <div class="col-demo">Dr Olivier MOREL</div>
-            </div>
-            <div class="col">
-              <div class="col-demo">Dr Ilan TAL</div>
-            </div>
-          </div>
+            <ul class={styles.liste}>
+                <li>Dr Salim KANOUN</li>
+                <li>Dr Pierre PASCAL</li>
+                <li>Dr Gérard VICTOR</li>
+                <li>Dr Alina BERRIOLO</li>
+                <li>Dr Olivier MOREL</li>
+                <li>Dr Ilan TAL</li>
+            </ul>
+
               <h1 style={{
             display: 'flex',
             justifyContent: 'center',
@@ -61,15 +50,16 @@ export default function Home() {
             height: '13vh',
             fontSize: '30px',
           }}>Students</h1>
-          
-            <p>Titouan QUEMA</p>
-            <p>Mathis MOHAND</p>
-            <p>Ping XIE</p>
-            <p>Esteban BAICHO</p>
-            <p>Ruban GRES</p>
-            <p>Diego ROMERO</p>
-            <p>Shijie TIAN</p>
-            <p>Gaël BELLANGER</p>
+
+            <ul class={styles.liste}>
+                <li>Titouan QUEMA</li>
+                <li>Mathis MOHAND</li>
+                <li>Ping XIE</li>
+                <li>Esteban BAICHO</li>
+                <li>Ruban GRES</li>
+                <li>Shijie TIAN</li>
+                <li>Gaël BELLANGER</li>
+            </ul>
         </div>
       </main>
     </Layout>

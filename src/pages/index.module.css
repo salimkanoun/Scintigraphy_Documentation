@@ -98,3 +98,16 @@
   height: 15px;
   align-items: center;
 }
+
+.liste li{
+  margin: 1.4%;
+  display: inline; 
+  display: center;
+}
+
+.liste ul{
+  list-style: none outside;
+  margin: 5%;
+  padding: 5%;
+  text-align: center;
+}
