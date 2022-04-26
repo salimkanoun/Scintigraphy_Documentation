@@ -16,3 +16,9 @@
   margin: 4%;
   height: 200px;
 }
+
+.color a{
+  background-color:rgb(41, 77, 119);
+  margin-left: -3%;
+  margin-right: -3%;
+}

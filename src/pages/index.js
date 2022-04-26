@@ -1,28 +1,21 @@
 import React from 'react';
-import clsx from 'clsx';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+/*import Link from '@docusaurus/Link';
+import clsx from 'clsx';*/
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header >
-        <div className={styles.avantAppli1} ></div>
+       <div className={styles.avantAppli1} ></div>
      <div className={styles.avantAppli2} ></div>
      <br></br>
       <div className="container">
         <h1 className={styles.appli}>{siteConfig.title}</h1>
         <p className={styles.tag}>{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="docs/Preparation/Download">
-            Download
-          </Link>
-        </div>
       </div>
     </header>
   );
