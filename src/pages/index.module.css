@@ -29,19 +29,14 @@
   padding-bottom: 100px;
   margin-bottom: -150px;
   color:rgb(255, 255, 255);
-  font-family: serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
 }
-.avantFeatureTitre{
-  color:rgb(255, 255, 255);
-  font-family: serif;
-  font-weight: 100;
+.avantFeature h1{
   font-size: 50px;
 }
-.avantFeatureText{
-  color:rgb(255, 255, 255);
-  font-family: serif;
-  font-weight: 50;
+.avantFeature p{
+  font-size: 140%;
 }
 
 .appli{
@@ -101,14 +96,12 @@
 }
 
 .liste li{
-  margin: 1.4%;
+  padding: 2%;
   display: inline; 
   display: center;
 }
 
 .liste ul{
   list-style: none outside;
-  margin: 5%;
-  padding: 5%;
   text-align: center;
 }

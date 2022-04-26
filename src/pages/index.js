@@ -30,9 +30,9 @@ export default function Home() {
       <HomepageHeader />
       <main>
       <div className={styles.avantFeature}>
-          <h1 className={styles.avantFeatureTitre}>Our Services</h1>
-            <p className={styles.avantFeatureText}>Need a Scintigraphy Application?</p>
-            <p className={styles.avantFeatureText}>We have developped several tools for image processing in Scintigraphy.</p>
+          <h1>Our Services</h1>
+          <p>Need a Scintigraphy Application?</p>
+          <p>We have developped several tools for image processing in Scintigraphy.</p>
       </div>
         <HomepageFeatures />
       </main>
