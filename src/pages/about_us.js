@@ -28,11 +28,11 @@ export default function Home() {
             in Toulouse</p>
     
             <h1 style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '13vh',
-            fontSize: '30px',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '13vh',
+                fontSize: '30px',
           }}>Doctors</h1>
             <ul class={styles.liste}>
                 <li>Dr Salim KANOUN</li>
