@@ -66,7 +66,9 @@ function Feature({title, description,lien}) {
         <div className={styles.color}>
           <h3>{title}</h3>
           <p>{description}</p>
+          <div className={styles.lien}>
           <a class="badge badge-primary text-wrap" href={lien}>+ Learn more</a>
+          </div>
         </div>
       </div>
     </div>

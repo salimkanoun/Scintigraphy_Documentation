@@ -28,8 +28,8 @@ function HomepageHeader() {
      <br></br>
       <img className={styles.icone} src={Icone} />
           <h1 className={styles.avantFeatureTitre}>Our Services</h1>
-            <p1> Need a Scintigraphy Application?</p1>
-            <p2>  We have developped several tools for image processing in Scintigraphy.</p2>
+            <h2> Need a Scintigraphy Application?</h2>
+            <p>  We have developped several tools for image processing in Scintigraphy.</p>
       </div>
       <HomepageFeatures />
     </div>
