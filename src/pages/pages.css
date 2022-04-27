@@ -1,0 +1,31 @@
+.text_para_pos{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grandTitre{
+    background-color: rgb(242,242,242);
+    padding-right: 58%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 5%;
+    color:rgb(26,43,109);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 340%;
+}
+
+.liste li{
+    padding: 2%;
+    display: inline; 
+    display: center;
+}
+  
+.liste ul{
+    list-style: none outside;
+    text-align: center;
+}
