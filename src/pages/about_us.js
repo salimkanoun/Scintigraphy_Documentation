@@ -8,7 +8,7 @@ function HomepageHeader() {
   return (
     <header >
       <div className="container">
-        <h1 className={styles.grandTitre}>About us</h1>
+        <h1 className={styles.grandTitre_V1}>About us</h1>
       </div>
     </header>
   );
@@ -27,39 +27,28 @@ export default function Home() {
             by many doctors with the help of students from the IUT of Computer Science 
             in Toulouse</p>
     
-            <h1 style={{
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '13vh',
-                fontSize: '30px',
-          }}>Doctors</h1>
-            <ul class={styles.liste}>
-                <li>Dr Salim KANOUN</li>
-                <li>Dr Pierre PASCAL</li>
-                <li>Dr Gérard VICTOR</li>
-                <li>Dr Alina BERRIOLO</li>
-                <li>Dr Olivier MOREL</li>
-                <li>Dr Ilan TAL</li>
-            </ul>
+          <h1>Doctors</h1>
+          
+          <ul class={styles.liste}>
+              <li>Dr Salim KANOUN</li>
+              <li>Dr Pierre PASCAL</li>
+              <li>Dr Gérard VICTOR</li>
+              <li>Dr Alina BERRIOLO</li>
+              <li>Dr Olivier MOREL</li>
+              <li>Dr Ilan TAL</li>
+          </ul>
 
-              <h1 style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '13vh',
-            fontSize: '30px',
-          }}>Students</h1>
+          <h1>Students</h1>
 
-            <ul class={styles.liste}>
-                <li>Titouan QUEMA</li>
-                <li>Mathis MOHAND</li>
-                <li>Ping XIE</li>
-                <li>Esteban BAICHO</li>
-                <li>Ruban GRES</li>
-                <li>Shijie TIAN</li>
-                <li>Gaël BELLANGER</li>
-            </ul>
+          <ul class={styles.liste}>
+              <li>Titouan QUEMA</li>
+              <li>Mathis MOHAND</li>
+              <li>Ping XIE</li>
+              <li>Esteban BAICHO</li>
+              <li>Ruban GRES</li>
+              <li>Shijie TIAN</li>
+              <li>Gaël BELLANGER</li>
+          </ul>
         </div>
       </main>
     </Layout>

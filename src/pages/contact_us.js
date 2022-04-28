@@ -9,7 +9,7 @@ function HomepageHeader() {
   return (
     <header >
       <div className="container">
-        <h1 className={styles.grandTitre}>Contact Us</h1>
+        <h1 className={styles.grandTitre_V3}>Contact Us</h1>
       </div>
     </header>
   );
@@ -24,9 +24,9 @@ export default function Home() {
       <HomepageHeader />
       <main>
       <div className={styles.text_para_pos}>
-      <p>Comment nous contacter…</p>
-      <p>different lien, mail...</p>
-        </div>
+        <p>Comment nous contacter…</p>
+        <p>different lien, mail...</p>
+      </div>
       </main>
     </Layout>
   );
