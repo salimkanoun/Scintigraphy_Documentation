@@ -13,16 +13,20 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
       <div className={styles.container}>
-        <img className={styles.appareil} src={DocusaurusSvg} />
-        <h1 className={styles.appli}>{siteConfig.title}</h1>
-        <p className={styles.tag}>{siteConfig.tagline}</p>
+        <div className={styles.imageAppli} id="div">
+         <img className={styles.appareil} src={DocusaurusSvg} />
+        </div>
+        <div className={styles.surImage}>
+          <h1 className={styles.appli}>{siteConfig.title}</h1>
+          <p className={styles.tag}>{siteConfig.tagline}</p>
         
-        <div className={styles.buttons}>
+          <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="docs/Preparation/Download">
             Download
-          </Link>
+           </Link>
+           </div>
         </div>
      <div className={styles.avantFeature}> <div className={styles.avantAppli2} ></div>
      <br></br>
