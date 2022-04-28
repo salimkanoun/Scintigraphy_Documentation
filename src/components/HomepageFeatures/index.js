@@ -19,7 +19,7 @@ const FeatureList = [
         Many applications available...
       </>
     ),
-    lien: 'docs/Preparation/Installation',
+    lien: 'our_services',
   },
   {
     title: 'Original tools',
@@ -28,7 +28,7 @@ const FeatureList = [
         Some tools are not available on the imaging consoles...
       </>
     ),
-    lien: 'docs/Preparation/Download',
+    lien: 'our_services',
   },
   {
     title: 'Updated applications according to the latest guidelines',
@@ -37,7 +37,7 @@ const FeatureList = [
         Tools developed and updated according to the latest recommendations for each type of imagery...
       </>
     ),
-    lien: 'docs/Preparation/Download',
+    lien: 'our_services',
   },
   {
     title: 'Available in Open source!',
@@ -46,7 +46,7 @@ const FeatureList = [
         It's free!
       </>
     ),
-    lien: 'docs/Preparation/Download',
+    lien: 'our_services',
   },
   {
     title: 'Possible evolutions and new tools to be developed!',
@@ -55,7 +55,7 @@ const FeatureList = [
         Don't hesitate to come to us for ideas !
       </>
     ),
-    lien: 'docs/Preparation/Download',
+    lien: 'our_services',
   },
 ];
 
