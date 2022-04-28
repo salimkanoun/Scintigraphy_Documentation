@@ -29,7 +29,7 @@ export default function Home() {
           <p>Many applications available...</p>
           <h1>Original tools</h1>
           <p>Some tools are not available on the imaging consoles...</p>
-          <h1><a id="test">Updated applications according to the latest guidelines</a></h1>
+          <h1>Updated applications according to the latest guidelines</h1>
           <p>Tools developed and updated according to the latest recommendations for each type of imagery...</p>
           <h1>Available in Open source!</h1>
           <p>It's free!</p>
