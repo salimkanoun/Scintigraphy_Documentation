@@ -1,16 +1,4 @@
-.grandTitre_V1{
-    background-color: rgb(242,242,242);
-    padding-right: 58%;
-    padding-top: 3%;
-    padding-bottom: 10%;
-    padding-left: 5%;
-    color:rgb(26,43,109);
-    font-family: "Lucida" Grande, sans-serif;
-    font-weight: 600;
-    font-size: 5vw;
-}
-
-.grandTitre_V2{
+.grandTitre{
     background-image: url('../../static/img/appareil.jpg');
     padding-right: 58%;
     padding-top: 3%;
@@ -21,7 +9,17 @@
     font-weight: 600;
     font-size: 5vw;
 }
-
+/*.grandTitre_V1{
+    background-color: rgb(242,242,242);
+    padding-right: 58%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    color:rgb(26,43,109);
+    font-family: "Lucida" Grande, sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
+}
 .grandTitre_V3{
     padding-right: 58%;
     padding-top: 3%;
@@ -30,7 +28,7 @@
     font-family: "Lucida" Grande, sans-serif;
     font-weight: 600;
     font-size: 5vw;
-}
+}*/
 
 .text_para_pos{
     padding-left: 12%;

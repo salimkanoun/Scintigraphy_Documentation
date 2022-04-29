@@ -7,9 +7,9 @@ import styles from './pages.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header >
-      <div className="container">
-        <h1 className={styles.grandTitre_V3}>Contact Us</h1>
+    <header>
+      <div>
+        <h1 className={styles.grandTitre}>Contact Us</h1>
       </div>
     </header>
   );
