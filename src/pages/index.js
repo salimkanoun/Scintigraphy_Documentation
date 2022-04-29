@@ -12,32 +12,42 @@ import Icone from '/static/img/iconeNucle.png';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-      <div className={styles.container}>
-        <div className={styles.imageAppli} id="div">
-         <img className={styles.appareil} src={DocusaurusSvg} />
-        </div>
-        <div className={styles.surImage}>
-          <h1 className={styles.appli}>{siteConfig.title}</h1>
-          <p className={styles.tag}>{siteConfig.tagline}</p>
+    
+    <div id="body">
+      <div className={styles.container} id="main1">
+  
+    
         
-          <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="docs/Preparation/Download">
-            Download
-           </Link>
-           </div>
+            <h1 className={styles.appli}>{siteConfig.title}</h1>
+            <br></br>
+            <p className={styles.tag}>{siteConfig.tagline}</p>
+            <br></br>
+             <div className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="docs/Preparation/Download">
+              Download
+             </Link>
+              </div>
+          
+      
+      </div>
+      <div className={styles.avantFeature}> 
+        <div className={styles.avantAppli2} >
+
         </div>
-     <div className={styles.avantFeature}> <div className={styles.avantAppli2} ></div>
-     <br></br>
+        <br></br>
+        
       <img className={styles.icone} src={Icone} />
           <h1 className={styles.avantFeatureTitre}>Our Services</h1>
             <h2> Need a Scintigraphy Application?</h2>
             <p>  We have developped several tools for image processing in Scintigraphy.</p>
       </div>
       <HomepageFeatures />
+     
     </div>
-  
+     
+      
   );
 }
 
