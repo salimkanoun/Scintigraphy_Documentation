@@ -7,7 +7,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header >
-      <div className="container">
+      <div >
         <h1 className={styles.grandTitre_V2}>Our services</h1>
       </div>
     </header>
