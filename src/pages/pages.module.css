@@ -52,9 +52,26 @@
     background-color: rgb(242,242,242);
     color: black;
     border-radius: 5%;
+    position: static;
 }
   
 .container{
     text-align: center;
     position: relative;
-  }
+}
+
+.text_our_services div{
+    background-color: rgb(242,242,242);
+    color: black;
+    padding:5%;
+    margin-bottom: 4%;
+}
+.text_right{
+    margin-right: 30%;
+    text-align: left;
+}
+
+.text_left{
+    margin-left: 30%;
+    text-align: right;
+}
