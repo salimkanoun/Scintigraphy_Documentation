@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <Layout
       title={`Home ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="pages about our services">
       <HomepageHeader />
       <main>
         <div className={styles.text_para_pos}>

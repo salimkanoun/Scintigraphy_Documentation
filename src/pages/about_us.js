@@ -19,10 +19,10 @@ export default function Home() {
   return (
     <Layout
       title={`Home ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="pages about us">
       <HomepageHeader/>
       <main>
-      <div class="container" className={styles.text_para_pos}>
+      <div className={styles.text_para_pos}>
         <p >These application have been developed 
             by many doctors with the help of students from the IUT of Computer Science 
             in Toulouse</p>
