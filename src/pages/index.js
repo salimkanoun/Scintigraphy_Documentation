@@ -13,11 +13,11 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     
-    <div id="body">
+    <body id="body">
       <div className={styles.container} id="main1">
-  
-    
-        
+       
+            <div className={styles.imageTitre}></div>
+         
             <h1 className={styles.appli}>{siteConfig.title}</h1>
             <br></br>
             <p className={styles.tag}>{siteConfig.tagline}</p>
@@ -30,11 +30,10 @@ function HomepageHeader() {
              </Link>
               </div>
           
-      
       </div>
       <div className={styles.avantFeature}> 
+      
         <div className={styles.avantAppli2} >
-
         </div>
         <br></br>
         
@@ -45,7 +44,7 @@ function HomepageHeader() {
       </div>
       <HomepageFeatures />
      
-    </div>
+    </body>
      
       
   );
