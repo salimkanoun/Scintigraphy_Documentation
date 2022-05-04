@@ -5,3 +5,7 @@
   padding:3%;
   transform: translateZ(0px) scale(1);
 }
+
+.container{
+  padding-bottom: 2%;
+}
