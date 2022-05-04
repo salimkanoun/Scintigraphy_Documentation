@@ -62,28 +62,42 @@ const FeatureList = [
 function Feature({title, description,lien}) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center padding-horiz--md text--primary">
-        <div className={styles.color}>
+      <div class="card">
+        <div class="card__header">
           <h3>{title}</h3>
+        </div>
+        <div class="card__body">
           <p>{description}</p>
-          <div className={styles.lien}>
-          <a class="badge badge-primary text-wrap" href={lien}>+ Learn more</a>
-          </div>
+        </div>
+        <div class="card__footer">
+          <form>
+            <button class="button button--secondary button--block" type="submit" formaction={lien}>Learn more</button>
+          </form>
         </div>
       </div>
     </div>
   );
 }
-
+/*
+    <div className={clsx('col col--4')}>
+      <div className="text--center padding-horiz--md text--primary">
+        <div className={styles.color}>
+          <h3>{title}</h3>
+          <p>{description}</p>
+          <div className={styles.lien}>
+            <a class="badge badge-primary text-wrap" href={lien}>+ Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    */
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-    <div className={styles.container}>
-        <div className="row w-95 p-3">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
+      <div className="row w-95 p-3">
+        {FeatureList.map((props, idx) => (
+          <Feature key={idx} {...props} />
+        ))}
       </div>
     </section>
   );
