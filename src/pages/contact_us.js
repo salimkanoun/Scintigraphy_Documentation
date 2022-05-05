@@ -23,10 +23,10 @@ export default function Home() {
       description="Pages about contacting us">
       <HomepageHeader />
       <main>
-      <div className={styles.text_para_pos}>
-        <p>Comment nous contacter…</p>
-        <p>different lien, mail...</p>
-      </div>
+        <div className={styles.text_para_pos}>
+          <p>Comment nous contacter…</p>
+          <p>different lien, mail...</p>
+        </div>
       </main>
     </Layout>
   );
