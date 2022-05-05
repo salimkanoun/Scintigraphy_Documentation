@@ -13,7 +13,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     
-    <body id="body">
+  <div className={styles.perspective}>
       <div className={styles.container} id="main1">
        
             <div className={styles.imageTitre}></div>
@@ -44,7 +44,7 @@ function HomepageHeader() {
       </div>
       <HomepageFeatures />
      
-    </body>
+   </div>
      
       
   );
@@ -56,9 +56,47 @@ export default function Home() {
     <Layout
       title={`Home ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <main>
+ 
       <HomepageHeader />
-      </main>
+      
+      
     </Layout>
   );
 }
+var jQueryScript = document.createElement('script');
+jQueryScript.setAttribute('src', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js');
+document.head.appendChild(jQueryScript);
+
+setTimeout(function() {
+
+ 
+  document.getElementById('__docusaurus').style.perspective = "1px";
+  document.getElementById('__docusaurus').style.height= "100vh";
+  document.getElementById('__docusaurus').style.overflowY = "auto";
+  document.getElementById('__docusaurus').style.overflowX = "hidden";
+
+  var parentDOM= document.getElementById('__docusaurus');
+ var mainWrapper= parentDOM.getElementsByClassName('main-wrapper')[0];
+ 
+ /*mainWrapper.appendChild( .under {
+  text-decoration: underline;
+})*/
+//$("div.main-wrapper").removeClass("main-wrapper").addClass("styles.parallax__group");
+/*$("div.main-wrapper").append("
+.green-text {
+color: #008000;
+}")*/
+mainWrapper.style.cssText+='  position: relative;height: 100vh;transform-style: preserve-3d;'
+/*document.footer.style.cssText+='    position: absolute;top: 150%;left: 0;right: 0;'
+*/
+$("footer").css({ 'position': 'absolute', 'top':'2750px' , 'left': '0','right': '0'})
+console.log($("footer"));
+/*
+console.log($("div.main-wrapper"))*/
+//  read styles of the body element
+
+//console.log(document.body.style.height );
+//console.log(  document.body.style.overflowY );
+//console.log(  document.body.style.overflowX);
+}, 100);
+

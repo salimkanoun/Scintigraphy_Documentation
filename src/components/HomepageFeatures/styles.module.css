@@ -4,6 +4,19 @@
   width: 100%;
   padding:3%;
   transform: translateZ(0px) scale(1);
+  
+}
+@media (max-width: 1000px) {
+
+  .features {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding:3%;
+    transform: translateZ(0px) scale(1);
+    margin-top: 25%;
+  }
+
 }
 
 .container{
