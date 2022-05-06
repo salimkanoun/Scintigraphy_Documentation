@@ -30,24 +30,24 @@ export default function Home() {
           <h1>Doctors</h1>
           
           <ul class={styles.liste}>
-              <li>Dr Salim KANOUN</li>
-              <li>Dr Pierre PASCAL</li>
-              <li>Dr Gérard VICTOR</li>
-              <li>Dr Alina BERRIOLO</li>
-              <li>Dr Olivier MOREL</li>
-              <li>Dr Ilan TAL</li>
+              <li class="item shadow--tl">Dr Salim KANOUN</li>
+              <li class="item shadow--tl">Dr Pierre PASCAL</li>
+              <li class="item shadow--tl">Dr Gérard VICTOR</li>
+              <li class="item shadow--tl">Dr Alina BERRIOLO</li>
+              <li class="item shadow--tl">Dr Olivier MOREL</li>
+              <li class="item shadow--tl">Dr Ilan TAL</li>
           </ul>
 
           <h1>Students</h1>
 
           <ul class={styles.liste}>
-              <li>Titouan QUEMA</li>
-              <li>Mathis MOHAND</li>
-              <li>Ping XIE</li>
-              <li>Esteban BAICHO</li>
-              <li>Ruban GRES</li>
-              <li>Shijie TIAN</li>
-              <li>Gaël BELLANGER</li>
+              <li class="item shadow--tl">Titouan QUEMA</li>
+              <li class="item shadow--tl">Mathis MOHAND</li>
+              <li class="item shadow--tl">Ping XIE</li>
+              <li class="item shadow--tl">Esteban BAICHO</li>
+              <li class="item shadow--tl">Ruban GRES</li>
+              <li class="item shadow--tl">Shijie TIAN</li>
+              <li class="item shadow--tl">Gaël BELLANGER</li>
           </ul>
         </div>
       </main>

@@ -49,10 +49,8 @@
     margin : 1%;
     display: inline; 
     display: center;
-    background-color: rgb(242,242,242);
-    color: black;
     border-radius: 5%;
-    position: static;
+
 }
   
 .container{
