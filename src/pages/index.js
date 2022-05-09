@@ -66,9 +66,10 @@ export default function Home() {
 var jQueryScript = document.createElement('script');
 jQueryScript.setAttribute('src', 'https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js');
 document.head.appendChild(jQueryScript);
+/*setTimeout(function() {*/
 
-setTimeout(function() {
-
+document.onreadystatechange = function() {
+  /*window.onload = function(){*/
  
   document.getElementById('__docusaurus').style.perspective = "1px";
   document.getElementById('__docusaurus').style.height= "100vh";
@@ -98,5 +99,5 @@ console.log($("div.main-wrapper"))*/
 //console.log(document.body.style.height );
 //console.log(  document.body.style.overflowY );
 //console.log(  document.body.style.overflowX);
-}, 100);
-
+};
+/*}, 100);*/
