@@ -8,8 +8,8 @@ const title = 'Appli.Scinti';
 const config = {
   title: title,
   tagline: 'Developing Applications in Nuclear Medicine',
-  url: 'https://Appli.Scinti.com',
-  baseUrl: '/',
+  url: 'https://salimkanoun.github.io/',
+  baseUrl: '/Scintigraphy_Documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
