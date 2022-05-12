@@ -13,7 +13,7 @@ const FeatureList = [
         Quick and easy to install in just a few clicks on your PC...
       </>
     ),
-    lien: 'docs/Preparation/Download',
+    lien: 'Preparation/Download',
     img: '../../static/img/appareil.jpg',
   },
   {/*we&apos;ll*/

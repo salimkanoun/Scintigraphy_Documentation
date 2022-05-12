@@ -8,13 +8,13 @@ const title = 'Appli.Scinti';
 const config = {
   title: title,
   tagline: 'Developing Applications in Nuclear Medicine',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://Appli.Scinti.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'CHU Rangueil / IUCT Oncopole', // Usually your GitHub org/user name.
+  projectName: 'Scintigraphy_Documentation', // Usually your repo name.
 
   presets: [
     [
@@ -23,14 +23,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Please change this to your repo. https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/
+          editUrl: 'https://github.com/salimkanoun/Scintigraphy_Documentation',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Please change this to your repo. 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/'
+          editUrl: 'https://github.com/salimkanoun/Scintigraphy_Documentation',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,7 +68,7 @@ const config = {
           },
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/facebook/docusaurus', // a changer pour le git du projet
             label: 'GitHub',
             position: 'right',
           },
@@ -86,3 +85,6 @@ const config = {
     }),
 };
 module.exports = config;
+/*module.exports = {
+  baseUrl: '/',
+};*/
