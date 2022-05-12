@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscintigraphy_documentation=self.webpackChunkscintigraphy_documentation||[]).push([[9228],{5302:function(t){t.exports=JSON.parse('{"permalink":"/Scintigraphy_Documentation/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
