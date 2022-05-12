@@ -28,6 +28,7 @@ export default function Home() {
             in Toulouse</p>
     
           <h1>Doctors</h1>
+
           <div class={styles.liste}>
             <div class="container">
               <div class="row">
@@ -54,6 +55,7 @@ export default function Home() {
           </div>
 
           <h1>Students</h1>
+          
           <div class={styles.liste}>
             <div class="container">
               <div class="row">
