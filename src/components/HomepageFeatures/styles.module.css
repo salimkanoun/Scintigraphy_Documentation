@@ -3,7 +3,9 @@
   align-items: center;
   width: 100%;
   padding:3%;
-  transform: translateZ(0px) scale(1);
+  transform: translateZ(0px) scale(1);  
+  background:linear-gradient(rgba(5, 94, 228, 0.2), rgba(0, 74, 245, 0.2)), url(./scintigraphie-cardiaque.jpg);
+ 
   
 }
 @media (max-width: 1000px) {
@@ -23,12 +25,14 @@
   padding-bottom: 2%;
 }
 .flipBox {
+
   border-style: none !important;
   background-color: transparent;
   width: 300px;
   height: 200px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+
 }
 
 /* This container is needed to position the front and back side */
@@ -59,9 +63,14 @@
 /* Style the front side */
 .flipBoxFront {
   background-color: #bbb;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
+.flipBoxFront h2{
+  position:relative;
+  top:-60%;
+  font-family: wfont_8625ec_bdb00556a39244c2800f0f527b398a00,wf_bdb00556a39244c2800f0f527,orig_play_regular;
+}
 /* Style the back side */
 .flipBoxBack {
 
@@ -69,4 +78,14 @@
   transform: rotateY(180deg);
 
   padding-bottom: 2%;
+}
+
+.case{
+  width:100%;
+  max-height: 100%;
+  overflow-y: hidden;
+  filter: brightness(80%);
+  align-items: center;
+  z-index: 1;
+  
 }

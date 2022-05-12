@@ -89,6 +89,7 @@
   font-size: 66px;
   margin-top: -200px;
 }*/
+
 .appli{
   color:rgb(255, 255, 255);
 font-family: "Lucida" Grande, sans-serif;
@@ -99,7 +100,7 @@ font-family: "Lucida" Grande, sans-serif;
   top: 20%;
   left: 0;
   right: 0;
-
+width :100%;
 
 margin-left: 7%;
 
@@ -121,7 +122,7 @@ transform: translateZ(0px) scale(1);
   left: 0;
   right: 0;
 }
-@media (max-width: 700px) {
+@media (max-width: 920px) {
 
   .appli{
     color:rgb(255, 255, 255);
