@@ -50,14 +50,8 @@
     display: inline; 
     display: center;
     border-radius: 5%;
-
 }
   
-.container{
-    text-align: center;
-    position: relative;
-}
-
 .text_our_services div{
     padding:5%;
 
