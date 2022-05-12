@@ -1,7 +1,10 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import cases from './scintigraphie-cardiaque.jpg';
 
+import { render } from "react-dom";
+import { Parallax, Background } from "react-parallax";
 const FeatureList = [
   {
     title: 'Easy to install',
@@ -69,9 +72,10 @@ function Feature({title, description,lien,img}) {
   return (
     <div className={clsx('col col--4')}>
      <div className={styles.flipBox}>
+
       <div className={styles.flipBoxInner}>
       <div className={styles.flipBoxFront}>
-        <img src="appareil.jpg"/>
+        <img className={styles.case} src={cases}/>
       <h2>{title}</h2>
     </div>
        <div className={styles.flipBoxBack}>
@@ -84,7 +88,7 @@ function Feature({title, description,lien,img}) {
           </div>
           <div class="card__footer">
            <form>
-              <button class="button button--secondary button--block" type="submit" formaction={lien}>Learn more</button>
+              <button class="button button--secondary button--block" type="submit" formAction={lien}>Learn more</button>
             </form>
           </div>
         </div>
