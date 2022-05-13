@@ -1,8 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import cases from '../../../static/img/scintigraphie-cardiaque.jpg';
-import update from '../../../static/img/update.jpg';
 
 const FeatureList = [
   {
@@ -12,8 +10,7 @@ const FeatureList = [
         Quick and easy to install in just a few clicks on your PC...
       </>
     ),
-    lien: 'Preparation/Download',
-    img: '../../../static/img/appareil.jpg',
+    lien: 'docs/Preparation/Download',
   },
   {/*we&apos;ll*/
     title: 'Useful everyday applications',
@@ -64,15 +61,8 @@ const FeatureList = [
 
 function Feature({title, description,lien}) {
   return (
-    <div className={clsx('col col--5',styles.feature)}>
-     <div className={styles.flipBox}>
-
-      <div className={styles.flipBoxInner}>
-      <div className={styles.flipBoxFront}>
-        <img className={styles.case} src={update}/>
-      <h2>{title}</h2>
-    </div>
-       <div className={styles.flipBoxBack}>
+    <div className={clsx('col col--4')}>
+      <div className={styles.container}>
         <div class="card">
           <div class="card__header">
             <h3>{title}</h3>
@@ -88,15 +78,12 @@ function Feature({title, description,lien}) {
         </div>
       </div>
     </div>
-    </div>
-    </div>
   );
 }
 
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <img className={styles.featuresImg} src={cases}/>
       <div className="row w-95 p-3">
         {FeatureList.map((props, idx) => (
           <Feature key={idx} {...props} />

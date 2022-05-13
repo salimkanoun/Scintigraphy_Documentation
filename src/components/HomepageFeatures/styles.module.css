@@ -3,122 +3,17 @@
   align-items: center;
   width: 100%;
   padding:3%;
-  transform: translateZ(0px) scale(1);  
-
-background-color: rgb(119,113,214);
-position: relative;
-overflow: hidden;
-padding: 16px;
-border: 1px dashed rgb(119,113,214);
-align-items: center;
-}
-.featuresImg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
-  opacity: 0.07;
-  background-repeat: repeat-y;
-}
-/*.features:after {
-  content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0.6;
-  background:linear-gradient( rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5)10%),url("./scintigraphie-cardiaque.jpg"); background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-}*/
-@media (max-width: 1000px) {
-
-  .features {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding:3%;
-    transform: translateZ(0px) scale(1);
-    margin-top: 25%;
-  }
-
+  transform: translateZ(0px) scale(1);
+  background: -moz-linear-gradient(top,  rgba(26,43,109,1) 0%, rgba(26,43,109,0.74) 26%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(26,43,109,1) 0%,rgba(26,43,109,0.74) 26%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(26,43,109,1) 0%,rgba(26,43,109,0.74) 26%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2b6d', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
 }
 
 .container{
-  padding-bottom: 2%;
-}
-.flipBox {
-
-  border-style: none !important;
-  background-color: transparent;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
-
+  padding-bottom: 5%;
 }
 
-/* This container is needed to position the front and back side */
-.flipBoxInner {
-  
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+.container:hover {
+  transform: scale(1.15); /* (115% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flipBox:hover .flipBoxInner {
-  transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flipBoxFront, .flipBoxBack {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
-
-/* Style the front side */
-.flipBoxFront {
-  background-color: #bbb;
-  color: rgb(255, 255, 255);
-  
-}
-
-.flipBoxFront h2{
-  font-size: 50px;
-  position:relative;
-  top:-60%;
-  font-family: wfont_8625ec_bdb00556a39244c2800f0f527b398a00,wf_bdb00556a39244c2800f0f527,orig_play_regular;
-}
-/* Style the back side */
-.flipBoxBack {
-
-
-  transform: rotateY(180deg);
-
-  padding-bottom: 2%;
-}
-
-.case{
-  width:100%;
-  max-height: 100%;
-  overflow-y: hidden;
-  filter: brightness(80%);
-  align-items: center;
-  z-index: 1;
- }
- .feature{
-   width: 500px;
-   height: 450px;
-   margin-top: 50px;
- }
