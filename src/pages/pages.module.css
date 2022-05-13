@@ -1,15 +1,28 @@
 .grandTitre{
+    background: -moz-linear-gradient(top,  rgba(26,43,109,1) 0%, rgba(26,43,109,0.74) 26%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(26,43,109,1) 0%,rgba(26,43,109,0.74) 26%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(26,43,109,1) 0%,rgba(26,43,109,0.74) 26%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2b6d', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+    padding-right: 58%;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    font-family: "Lucida" Grande, sans-serif;
+    font-size: 5vw;
+}
+/*
+.grandTitre{
     background-image: url('../../static/img/appareil.jpg');
     padding-right: 58%;
     padding-top: 3%;
     padding-bottom: 10%;
     padding-left: 5%;
     color:rgb(26,43,109);
-    font-family: "Lucida" Grande, sans-serif;
-    
+    font-family: "Lucida" Grande, sans-serif;    
     font-size: 5vw;
 }
-/*.grandTitre_V1{
+
+.grandTitre_V1{
     background-color: rgb(242,242,242);
     padding-right: 58%;
     padding-top: 3%;
