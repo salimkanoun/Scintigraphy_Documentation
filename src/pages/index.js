@@ -86,39 +86,3 @@ export default function Home() {
     </Layout>
   );
 }
-const App = () => {
-  const {siteConfig} = useDocusaurusContext();
-  return(
-    <BrowserRouter>
-    <Parallax style={{
-      "width":"100%", 
-      "position":"absolute",
-      "left":"0",
-      "top":"0",
-      "right":"0",
-      "max-height": "95%",
-   
-     "overflow": "hidden",
-      }} bgImage={DocusaurusSvg } strength={500}>
-    
-    <div className={styles.perspective}>
-        <div className={styles.container} id="main1">
-       
-       <h1 className={styles.appli}>{siteConfig.title}</h1>
-       <br></br>
-       <p className={styles.tag}>{siteConfig.tagline}</p>
-       <br></br>
-        <div className={styles.buttons}>
-       <Link
-         className="button button--secondary button--lg"
-         to="docs/Preparation/Download">
-         Download
-        </Link>
-         </div>
-        
-      </div>
-      </div>
-    
-    </Parallax>
-    </BrowserRouter>);
-    };
