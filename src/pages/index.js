@@ -67,22 +67,15 @@ export default function Home() {
   return (
     <Layout
       title={`Home ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
- 
+      description="Home page">
       <HomepageHeader />
-      
-      <div className={styles.avantFeature}> 
-      
-      <div className={styles.avantAppli2} >
-      </div>
-      <br></br>
-      
-    <img className={styles.icone} src={Icone} />
-        <h1 className={styles.avantFeatureTitre}>Our Services</h1>
-          <h2> Need a Scintigraphy Application?</h2>
-          <p>  We have developped several tools for image processing in Scintigraphy.</p>
-    </div>
-    <HomepageFeatures />
+        <div className={styles.avantFeature}> 
+          <img className={styles.icone} src={Icone} />
+          <h1>Our Services</h1>
+          <h2>Need a Scintigraphy Application?</h2>
+          <p>We have developped several tools for image processing in Scintigraphy.</p>
+        </div>
+      <HomepageFeatures />
     </Layout>
   );
 }

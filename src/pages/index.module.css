@@ -34,44 +34,26 @@
 
 
 .avantFeature{
-  
   background-color: rgb(26,43,109);
-  /*padding-left: 12%;*/
- 
-  /*margin-top: -200px;*/
-  padding-bottom: 100px;
-  /*margin-bottom: -150px;
-  color:rgb(255, 255, 255);*/
-  font-family: "Lucida" Grande, sans-serif;
-  /*font-weight: 100;
-  /*code shijie :*/
-  width: 100%;
- 
-  text-align: center;
-  transform: translateZ(0px) scale(1);
- 
-  
-}
-.avantFeature h1{
-  /*font-size: 50px;
-   code shijie :*/
   color:rgb(255, 255, 255);
+  padding-bottom: 2%;
+  font-family: "Lucida" Grande, sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.avantFeature h1{
   font-weight: 300;
   font-size: 70px;
 }
-/*.avantFeature p{
-  font-size: 140%;
-} code shijie :*/
 
 .avantFeature h2{
-  color:rgb(255, 255, 255);
   font-weight: lighter;
   font-size: 24px;
   margin-top: 55px;
 }
 
 .avantFeature p{
-  color:rgb(255, 255, 255);
   font-weight: 100;
   font-size: 24px;
   height: 80px;
@@ -92,7 +74,7 @@
 
 .appli{
   color:rgb(255, 255, 255);
-font-family: "Lucida" Grande, sans-serif;
+  font-family: "Lucida" Grande, sans-serif;
   font-weight: 400;
   font-size: 150px;
   
@@ -100,11 +82,11 @@ font-family: "Lucida" Grande, sans-serif;
   top: 20%;
   left: 0;
   right: 0;
-width :100%;
+  width :100%;
 
-margin-left: 7%;
+  margin-left: 7%;
 
-transform: translateZ(0px) scale(1);
+  transform: translateZ(0px) scale(1);
 }
 .tag{
   /*-webkit-transform: translateZ(999px) scale(.7);
@@ -242,7 +224,6 @@ transform: translateZ(0px) scale(1);
   filter: brightness(80%);
   align-items: center;
   z-index: 1;
-  
 }
 
 /*--fin--*/
