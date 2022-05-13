@@ -4,10 +4,37 @@
   width: 100%;
   padding:3%;
   transform: translateZ(0px) scale(1);  
-  background:linear-gradient(rgba(5, 94, 228, 0.2), rgba(0, 74, 245, 0.2)), url(./scintigraphie-cardiaque.jpg);
- 
-  
+
+background-color: rgb(119,113,214);
+position: relative;
+overflow: hidden;
+padding: 16px;
+border: 1px dashed rgb(119,113,214);
+align-items: center;
 }
+.featuresImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.07;
+  background-repeat: repeat-y;
+}
+/*.features:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.6;
+  background:linear-gradient( rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5)10%),url("./scintigraphie-cardiaque.jpg"); background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}*/
 @media (max-width: 1000px) {
 
   .features {
@@ -28,8 +55,8 @@
 
   border-style: none !important;
   background-color: transparent;
-  width: 300px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 
@@ -64,9 +91,11 @@
 .flipBoxFront {
   background-color: #bbb;
   color: rgb(255, 255, 255);
+  
 }
 
 .flipBoxFront h2{
+  font-size: 50px;
   position:relative;
   top:-60%;
   font-family: wfont_8625ec_bdb00556a39244c2800f0f527b398a00,wf_bdb00556a39244c2800f0f527,orig_play_regular;
@@ -87,5 +116,9 @@
   filter: brightness(80%);
   align-items: center;
   z-index: 1;
-  
-}
+ }
+ .feature{
+   width: 500px;
+   height: 450px;
+   margin-top: 50px;
+ }
