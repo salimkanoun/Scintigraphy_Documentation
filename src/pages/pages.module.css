@@ -6,7 +6,7 @@
     padding-left: 5%;
     color:rgb(26,43,109);
     font-family: "Lucida" Grande, sans-serif;
-    font-weight: 600;
+    
     font-size: 5vw;
 }
 /*.grandTitre_V1{
@@ -35,8 +35,11 @@
     padding-right: 12%;
     padding-top: 20px;
     padding-bottom: 100px;
-    font-weight: 100;
     font-family: "Lucida" Grande, sans-serif;
+}
+
+.text_our_services div{
+    padding:5%;
 }
 
 .text_para_pos h1{
@@ -44,24 +47,11 @@
     margin-bottom: 3%;
 }
 
-.liste li{
-    padding: 1%;
-    margin : 1%;
-    display: inline; 
-    display: center;
-    border-radius: 5%;
-
-}
-  
-.container{
+.liste div{
     text-align: center;
-    position: relative;
+    padding : 10px;
 }
 
-.text_our_services div{
-    padding:5%;
-
-}
 .text_right{
     margin-right: 30%;
     text-align: left;

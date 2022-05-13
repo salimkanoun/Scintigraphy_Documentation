@@ -23,7 +23,6 @@ const FeatureList = [
       </>
     ),
     lien: 'our_services',
-    img: '../../static/img/appareil.jpg',
   },
   {
     title: 'Original tools',
@@ -33,7 +32,6 @@ const FeatureList = [
       </>
     ),
     lien: 'our_services',
-    img: '../../static/img/appareil.jpg',
   },
   {
     title: 'Updated applications according to the latest guidelines',
@@ -43,7 +41,6 @@ const FeatureList = [
       </>
     ),
     lien: 'our_services',
-    img: '../../static/img/appareil.jpg',
   },
   {
     title: 'Available in Open source!',
@@ -53,7 +50,6 @@ const FeatureList = [
       </>
     ),
     lien: 'our_services',
-    img: '../../static/img/appareil.jpg',
   },
   {
     title: 'Possible evolutions and new tools to be developed!',
@@ -63,11 +59,10 @@ const FeatureList = [
       </>
     ),
     lien: 'our_services',
-    img: '../../static/img/appareil.jpg',
   },
 ];
 
-function Feature({title, description,lien,img}) {
+function Feature({title, description,lien}) {
   return (
     <div className={clsx('col col--5',styles.feature)}>
      <div className={styles.flipBox}>
@@ -87,12 +82,12 @@ function Feature({title, description,lien,img}) {
           </div>
           <div class="card__footer">
            <form>
-              <button class="button button--secondary button--block" type="submit" formAction={lien}>Learn more</button>
+              <button class="button button--secondary button--block" type="submit" formaction={lien}>Learn more</button>
             </form>
           </div>
         </div>
-        </div>
       </div>
+    </div>
     </div>
     </div>
   );
@@ -107,7 +102,6 @@ export default function HomepageFeatures() {
           <Feature key={idx} {...props} />
         ))}
       </div>
-
-        </section>
+    </section>
   );
 }

@@ -28,27 +28,58 @@ export default function Home() {
             in Toulouse</p>
     
           <h1>Doctors</h1>
-          
-          <ul class={styles.liste}>
-              <li class="item shadow--tl">Dr Salim KANOUN</li>
-              <li class="item shadow--tl">Dr Pierre PASCAL</li>
-              <li class="item shadow--tl">Dr Gérard VICTOR</li>
-              <li class="item shadow--tl">Dr Alina BERRIOLO</li>
-              <li class="item shadow--tl">Dr Olivier MOREL</li>
-              <li class="item shadow--tl">Dr Ilan TAL</li>
-          </ul>
+
+          <div class={styles.liste}>
+            <div class="container">
+              <div class="row">
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Dr Salim KANOUN</div>
+                </div>
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Dr Pierre PASCAL</div>
+                </div>
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Dr Gérard VICTOR</div>
+                </div>
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Dr Alina BERRIOLO</div>
+                </div>
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Dr Olivier MOREL</div>
+                </div>
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Dr Ilan TAL</div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <h1>Students</h1>
-
-          <ul class={styles.liste}>
-              <li class="item shadow--tl">Titouan QUEMA</li>
-              <li class="item shadow--tl">Mathis MOHAND</li>
-              <li class="item shadow--tl">Ping XIE</li>
-              <li class="item shadow--tl">Esteban BAICHO</li>
-              <li class="item shadow--tl">Ruban GRES</li>
-              <li class="item shadow--tl">Shijie TIAN</li>
-              <li class="item shadow--tl">Gaël BELLANGER</li>
-          </ul>
+          
+          <div class={styles.liste}>
+            <div class="container">
+              <div class="row">
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Titouan QUEMA</div>
+                </div>
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Mathis MOHAND</div>
+                </div>
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Ping XIE</div>
+                </div>
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Esteban BAICHO</div>
+                </div>
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Shijie TIAN</div>
+                </div>
+                <div class="col col--2">
+                  <div class="col-demo item shadow--tl">Gaël BELLANGER</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </Layout>
