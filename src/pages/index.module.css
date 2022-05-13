@@ -221,9 +221,7 @@
 .icone{
   height:6%;
   max-height: 100px;
-  filter: brightness(80%);
   align-items: center;
-  z-index: 1;
 }
 
 /*--fin--*/
