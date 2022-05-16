@@ -10,6 +10,8 @@ import Icone from '/static/img/iconeNucle.png';
 import { render } from "react-dom";
 import { Parallax, Background } from "react-parallax";
 import {BrowserRouter} from 'react-router-dom';
+
+ const imgStyle={minWidth: '1920px'}
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -22,17 +24,18 @@ function HomepageHeader() {
       }} id="rot" className={clsx('hero hero--primary', styles.heroBanner)}>
 
 <BrowserRouter>
+      
     <Parallax style={{
-      "width":"100%", 
+      
       "position":"absolute",
       "left":"0",
       "top":"0",
       "right":"0",
-      "max-height": "95%",
+      
    
      "overflow": "hidden",
-      }} bgImage={DocusaurusSvg } strength={500}>
-    
+      }} bgImage={DocusaurusSvg } bgImageStyle={imgStyle} strength={500}>
+    <div style={{ }}>
     <div className={styles.perspective}>
         <div className={styles.container} id="main1">
        
@@ -50,8 +53,9 @@ function HomepageHeader() {
         
       </div>
       </div>
-    
+    </div>
     </Parallax>
+   
     </BrowserRouter>
      
      
@@ -76,6 +80,7 @@ export default function Home() {
           <p>We have developped several tools for image processing in Scintigraphy.</p>
         </div>
       <HomepageFeatures />
+
     </Layout>
   );
 }

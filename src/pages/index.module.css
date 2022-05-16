@@ -98,10 +98,10 @@
   font-size: 30px;
   width: 100%;
   
-  transform: translateZ(0px) scale(1);
+  /*transform: translateZ(0px) scale(1);*/
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 7%;
   right: 0;
 }
 @media (max-width: 920px) {
@@ -173,10 +173,12 @@
 
 }
 .perspective{
-  position: relative;
+ /* position: relative;
   height: 100vh;
-  transform-style: preserve-3d;
-  
+  transform-style: preserve-3d;*/
+ 
+  position: relative;
+  left: 0;
 }
 /*.perspective1{
   perspective: 2px;
@@ -236,4 +238,7 @@
   height: 100vh;
   transform-style: preserve-3d;
   
+}
+img.react-parallax-bgimage{
+  width:1920px;
 }
