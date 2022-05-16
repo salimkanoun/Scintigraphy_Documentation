@@ -23,12 +23,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo. https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/
+          // Please change this to your repo.
           editUrl: 'https://github.com/salimkanoun/Scintigraphy_Documentation',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo. 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/'
+          // Please change this to your repo.
           editUrl: 'https://github.com/salimkanoun/Scintigraphy_Documentation',
         },
         theme: {
@@ -66,7 +66,6 @@ const config = {
             label: 'Contact us',
             position: 'left'
           },
-          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus', // a changer pour le git du projet
             label: 'GitHub',
@@ -85,6 +84,3 @@ const config = {
     }),
 };
 module.exports = config;
-/*module.exports = {
-  baseUrl: '/',
-};*/
