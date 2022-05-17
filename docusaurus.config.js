@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/Scintigraphy_Documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico',// a changer
   organizationName: 'CHU Rangueil / IUCT Oncopole', // Usually your GitHub org/user name.
   projectName: 'Scintigraphy_Documentation', // Usually your repo name.
 
