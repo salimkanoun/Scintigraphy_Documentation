@@ -12,7 +12,7 @@ Click here to launch the app:
 
 ![](../../static/img/ImageJ-win64.png )
 
-you may have this:
+You may have this:
 
 ![](../../static/img/ImageJ-win64-clic.png )
 
