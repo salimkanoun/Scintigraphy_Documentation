@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 
 # Introduction
 
-## what is cette application
+## what is this application
 
 ### What is ImageJ?
 
