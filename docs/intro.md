@@ -1,94 +1,49 @@
 ---
 sidebar_position: 1
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Introduction
 
-## Titre de niveau 2
+## what is cette application
 
-### Titre de niveau 3
+### What is ImageJ?
 
-#### Titre de niveau 4 ne son pas dans le menu
+<img src="https://imagej.net/media/icons/imagej.png" width="100" height="100"/>
+ImageJ is public domain software for processing and analyzing scientific images.
 
-## Code
-```jsx title="/src/components/HelloCodeTitle.js"
-function HelloCodeTitle(props) {
-  return <h1>Hello, {props.name}</h1>;
-}
-if (highlight) {
-    // highlight-next-line
-    return 'Ce texte est surligné !';
-  }
-```
+### What is ImageJ2?
+<img src="https://imagej.net/media/icons/imagej2.png" width="100" height="100"/>
+ImageJ2 is a new version of ImageJ for multidimensional image data, with a focus on scientific imaging. It includes some additional features not available in the original ImageJ.
 
-## Note
+### What is Fiji?
+<img src="https://imagej.net/media/icons/fiji.svg" width="100" height="100"/>
+Fiji Is Just ImageJ—a “batteries-included” distribution of ImageJ and ImageJ2 which includes many useful plugins contributed by the community.
 
-### Note
-:::note remarque
+## What does ImageJ provide?
 
-Un peu de **contenu** avec la `syntaxe` _markdown_. Consultez [cette `api`](#).
-
-:::
-
-### Tip
-
-:::tip astuce
-
-Un peu de **contenu** avec la `syntaxe` _markdown_. Consultez [cette `api`](#).
-
-:::
-
-### Info
-
-:::info
-
-Un peu de **contenu** avec la `syntaxe` _markdown_. Consultez [cette `api`](#).
-
-:::
-
-### Attention
-
-:::caution attention
-
-Un peu de **contenu** avec la `syntaxe` _markdown_. Consultez [cette `api`](#).
-
-:::
-
-### Danger
-
-:::danger
-Un peu de **contenu** avec la `syntaxe` _markdown_. Consultez [cette `api`](#).
-:::
-
-<!-- Prettier ne change pas ceci -->
-:::note
-Hello world
-:::
-
-import Tabs from '@theme/Tabs';
-
-import TabItem from '@theme/TabItem';
-
-:::tip Utiliser les onglets dans les admonitions
 
 <Tabs>
-  <TabItem value="apple" label="Apple">Ceci est une pomme 🍎</TabItem>
-  <TabItem value="orange" label="Orange">Ceci est une orange 🍊</TabItem>
-  <TabItem value="banana" label="Banana">Ceci est une banane 🍌</TabItem>
+  <TabItem value="Application" label="Application">
+    A user interface with functions to load, display, and save images.
+  </TabItem>
+    <TabItem value="Techniques" label="Techniques">
+   mage processing, colocalization, deconvolution, registration, segmentation,
+    tracking, visualization and much more.
+  </TabItem>
+    <TabItem value="Plugins" label="Plugins">
+    	A powerful mechanism for extending ImageJ in all kinds of useful ways.
+  </TabItem>
+    <TabItem value="Scripting" label="Scripting">
+    	Automated, reproducible workflows via scripts and macros.
+  </TabItem>
+<TabItem value="Forum" label="Forum">
+    A vibrant, diverse, and helpful user community.
+  </TabItem>
+ 
 </Tabs>
 
-:::
-
-## Image
-
-![Image exemple](../static/img/docusaurus.png 'Avec un titre')
-
-### .sgv
-
-![sgv exemple](../static/img/logo.svg)
-
-### Math
-
-$$
-I = \int_0^{2\pi} \sin(x)\,dx
-$$
+ImageJ’s extensibility is the root of its effectiveness: many advanced 
+image-processing methods are not provided by the core application, but rather are 
+plugins written by specialists in specific fields.
