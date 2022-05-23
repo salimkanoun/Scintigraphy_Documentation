@@ -30,9 +30,7 @@ function HomepageHeader() {
           <div className={styles.perspective}>
             <div className={styles.container} id="main1">
               <h1 className={styles.appli}>{siteConfig.title}</h1>
-              <br></br>
               <p className={styles.tag}>{siteConfig.tagline}</p>
-              <br></br>
               <div className={styles.buttons}>
                 <Link
                   className="button button--secondary button--lg"

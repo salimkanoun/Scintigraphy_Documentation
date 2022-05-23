@@ -20,10 +20,7 @@
   font-family: "Lucida" Grande, sans-serif;
   display: flex;
   align-items: center;
-  justify-content: center; /*
-  -webkit-transform: translateZ(999px) scale(.7);
-  transform: translateZ(999px) scale(.7);
-  z-index: 1;*/
+  justify-content: center;
   margin-left: 7%;
   transform: translateZ(0px) scale(1);
   position: absolute;
@@ -59,88 +56,55 @@
   height: 80px;
 }
 
-/*.appli{
-  background-color: rgb(242,242,242);
-  padding-right: 58%;
-  padding-top: 20px;
-  padding-bottom: 100px;
-  padding-left: 5%;
-  color:rgb(26,43,109);
-  font-family: serif;
-  font-weight: lighter;
-  font-size: 66px;
-  margin-top: -200px;
-}*/
-
 .appli{
   color:rgb(255, 255, 255);
   font-family: "Lucida" Grande, sans-serif;
   font-weight: 400;
   font-size: 150px;
-  
   position: absolute;
   top: 20%;
   left: 0;
   right: 0;
   width :100%;
-
   margin-left: 7%;
-
   transform: translateZ(0px) scale(1);
 }
+
 .tag{
-  /*-webkit-transform: translateZ(999px) scale(.7);
-  transform: translateZ(999px) scale(.7);
-  z-index: 1;*/
-  color:rgb(255, 255, 255);;
+  color:rgb(255, 255, 255);
   font-family: "Lucida" Grande, sans-serif;
   text-decoration: underline  rgb(255, 255, 255);
   font-size: 30px;
   width: 100%;
-  
-  /*transform: translateZ(0px) scale(1);*/
   position: absolute;
   top: 50%;
-  left: 7%;
-  right: 0;
+  left: 5%;
 }
-@media (max-width: 920px) {
 
+@media (max-width: 920px) {
   .appli{
     color:rgb(255, 255, 255);
-  font-family: "Lucida" Grande, sans-serif;
+    font-family: "Lucida" Grande, sans-serif;
     font-weight: 400;
     font-size: 80px;
-    
     position: absolute;
     top: 20%;
-    left: 0;
-    right: 0;
-  
-  
-  margin-left: 7%;
-  
-  transform: translateZ(0px) scale(1);
+    margin-left: 7%;
+    transform: translateZ(0px) scale(1);
   }
+
   .tag{
-    /*-webkit-transform: translateZ(999px) scale(.7);
-    transform: translateZ(999px) scale(.7);
-    z-index: 1;*/
     color:rgb(255, 255, 255);;
     font-family: "Lucida" Grande, sans-serif;
     text-decoration: underline  rgb(255, 255, 255);
     font-size: 18px;
     width: 100%;
-    
     transform: translateZ(0px) scale(1);
     position: absolute;
     top: 50%;
     left: 5%;
-    right: 0;
   }
 }
-/*---fin---*/
-
 
 .header{
   padding-left: 10%;
@@ -151,11 +115,7 @@
   height: 300px;
   align-items: center;
 }
-/*.avantAppli2{
-  background-color: rgb(26,43,109);
-  height: 15px;
-  align-items: center;
-} code shijie :*/
+
 .avantAppli2{
   background-color: rgb(26,43,109);
   height: 200px;
@@ -172,39 +132,24 @@
 
 
 }
+
 .perspective{
- /* position: relative;
-  height: 100vh;
-  transform-style: preserve-3d;*/
- 
   position: relative;
   left: 0;
 }
-/*.perspective1{
-  perspective: 2px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  
-}*/
+
 .container{
- 
-  height: 110vh;/*
-  -webkit-transform: translateZ(-999px) scale(1.2);
-  transform: translateZ(-999px) scale(1.2);
-  z-index: -1;*/
+  height: 110vh;
   width: 90.9%;
- 
   text-align: center;
   max-width: 100%;
   align-items: center;
   position: relative;
   height: 100vh;
   transform-style: preserve-3d;
- /* transform: translateZ(-2px) scale(3);*/
 }
-.imageTitre{
 
+.imageTitre{
   background:linear-gradient(rgba(50, 41, 41, 0.2), rgba(38, 34, 34, 0.2)), url(../../static/img/appareil.jpg);
   background-position: center top;
   background-size: cover;
@@ -219,26 +164,24 @@
   overflow-y: hidden;
 }
 
-
 .icone{
   height:6%;
   max-height: 100px;
   align-items: center;
 }
 
-/*--fin--*/
 .parallax__group {
   position: relative;
   height: 100vh;
   transform-style: preserve-3d;
- 
 }
+
 .main-wrapper {
   position: relative;
   height: 100vh;
   transform-style: preserve-3d;
-  
 }
+
 img.react-parallax-bgimage{
   width:1920px;
 }
