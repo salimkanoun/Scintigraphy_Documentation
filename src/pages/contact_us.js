@@ -14,11 +14,13 @@ function  ContactUs()  {
 
     emailjs.sendForm('service_alvn4ca', 'template_9fjej9l', form.current, 'ELveCkDbUFCZS3X-9')
       .then((result) => {
-          console.log(result.text);
+          console.log(result.text); 
+          alert("Your message have been sent successfully");
       }, (error) => {
           console.log(error.text);
+          alert(error.text);
       });
-      alert("Your message have been sent successfully");
+     
   };
 
   return (
