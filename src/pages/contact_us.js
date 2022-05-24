@@ -70,8 +70,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <div className={styles.text_para_pos}>
-          <p style={{fontFamily: "Lucida Grande, sans-serif",}}>Got questions?
-Feel free to contact us!</p>
+          <p style={{fontFamily: "Lucida Grande, sans-serif",}}>Got questions? Feel free to contact us!</p>
           <p style={{fontFamily: "Lucida Grande, sans-serif",}}>We'll reply you as soon as possible. </p>
         </div>
       <ContactUs/>
