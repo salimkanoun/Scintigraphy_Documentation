@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscintigraphy_documentation=self.webpackChunkscintigraphy_documentation||[]).push([[244],{8309:function(t){t.exports=JSON.parse('{"label":"hello","permalink":"/Scintigraphy_Documentation/blog/tags/hello","allTagsPath":"/Scintigraphy_Documentation/blog/tags","count":2}')}}]);

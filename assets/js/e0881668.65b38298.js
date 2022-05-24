@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkscintigraphy_documentation=self.webpackChunkscintigraphy_documentation||[]).push([[19],{2069:function(t){t.exports=JSON.parse('{"permalink":"/Scintigraphy_Documentation/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
