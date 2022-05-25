@@ -1,17 +1,13 @@
-
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './pages.module.css';
-
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 function  ContactUs()  {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_alvn4ca', 'template_9fjej9l', form.current, 'ELveCkDbUFCZS3X-9')
       .then((result) => {
           console.log(result.text); 
@@ -19,8 +15,7 @@ function  ContactUs()  {
       }, (error) => {
           console.log(error.text);
           alert(error.text);
-      });
-     
+      });     
   };
 
   return (
@@ -29,24 +24,19 @@ function  ContactUs()  {
       paddingLeft : "10%",
       paddingRight : "10%",
     }} ref={form} onSubmit={sendEmail}>
-  
-      <label style={{fontFamily: "Lucida Grande, sans-serif",}}>Your email : </label>
+      <label style={{fontFamily: "Lucida Grande, sans-serif",}}>Your email :</label>
       <input style={{
- 
-    boxSizing: "border-box",
-    border: "2px solid #ccc",
-    borderRadius: "4px",
-    backgroundColor: "#f8f8f8",
-  
-    resize: "none",
-  }}type="email" name="user_email" />
-      <br/> <br/>
-      <label style={{fontFamily: "Lucida Grande, sans-serif",}}>Message : </label>
-      <textarea name="message" />
-      <br/> <br/>
-      <input className={styles.styled} type="submit" value="Send" />
+        boxSizing: "border-box",
+        border: "2px solid #ccc",
+        borderRadius: "4px",
+        backgroundColor: "#f8f8f8",
+        resize: "none",
+      }}type="email" name="user_email" />
       <br/>
-      <p></p>
+      <label style={{fontFamily: "Lucida Grande, sans-serif",}}>Message :</label>
+      <textarea name="message" />
+      <br/>
+      <input className={styles.styled} type="submit" value="Send" />
     </form>
   );
 };
