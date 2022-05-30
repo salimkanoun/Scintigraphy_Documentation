@@ -16,6 +16,9 @@ You may have this:
 
 ![](../../static/img/ImageJ-win64-clic.png )
 
+Then you need to follow page 2 of
+    **[Advanced guide](../../static/img/BI_quick_user_guide1_2.pdf)**
+to continue.
 
 
 
