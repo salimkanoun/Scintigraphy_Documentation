@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 
 # Introduction
 
-### What is Fiji?
+## What is Fiji?
 <img src="https://imagej.net/media/icons/fiji.svg" width="100" height="100"/>
 Fiji Is Just ImageJ—a “batteries-included” distribution of ImageJ and ImageJ2 which includes many useful plugins contributed by the community.
 
