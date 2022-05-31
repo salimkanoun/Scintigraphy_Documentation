@@ -10,7 +10,7 @@ const FeatureList = [
         Quick and easy to install in just a few clicks on your PC...
       </>
     ),
-    lien: 'docs/Preparation/Download',
+    lien: 'docs/Getting_started/Download',
   },
   {/*we&apos;ll*/
     title: 'Useful everyday applications',
