@@ -6,22 +6,11 @@ import TabItem from '@theme/TabItem';
 
 # Introduction
 
-## what is this application
-
-### What is ImageJ?
-
-<img src="https://imagej.net/media/icons/imagej.png" width="100" height="100"/>
-ImageJ is public domain software for processing and analyzing scientific images.
-
-### What is ImageJ2?
-<img src="https://imagej.net/media/icons/imagej2.png" width="100" height="100"/>
-ImageJ2 is a new version of ImageJ for multidimensional image data, with a focus on scientific imaging. It includes some additional features not available in the original ImageJ.
-
 ### What is Fiji?
 <img src="https://imagej.net/media/icons/fiji.svg" width="100" height="100"/>
 Fiji Is Just ImageJ—a “batteries-included” distribution of ImageJ and ImageJ2 which includes many useful plugins contributed by the community.
 
-## What does ImageJ provide?
+## What does Fiji provide?
 
 
 <Tabs>
@@ -44,6 +33,6 @@ Fiji Is Just ImageJ—a “batteries-included” distribution of ImageJ and Imag
  
 </Tabs>
 
-ImageJ’s extensibility is the root of its effectiveness: many advanced 
+Fiji’s extensibility is the root of its effectiveness: many advanced 
 image-processing methods are not provided by the core application, but rather are 
 plugins written by specialists in specific fields.
