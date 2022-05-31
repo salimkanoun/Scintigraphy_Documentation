@@ -85,7 +85,7 @@ example shows the option dialog of the Oval Tool:
 <img src="https://imagej.net/media/learn/oval-tool-option-dialog.png" />
 
 <p>If there is a small red arrow in the lower right corner of the 
-tool icon, you can right-click (<kbd class="key">⌃ Ctrl</kbd>
+tool icon, you can right-click (<kbd class="key">Ctrl</kbd>
 +
 <span class="key"><img src="https://upload.wikimedia.org/
 wikipedia/commons/2/27/LMB_click.svg" width="20"/> Left Click </span>on an Apple 
@@ -149,4 +149,5 @@ resolution, you can set the resolution explicitely with
 There are two more options: RGB stack and HSV stack, which can turn a 2-dimensional color image into a stack consisting of 3 color channels (red, green & blue or hue, saturation & value, respectively).
 
 ## Further reading
-Peruse the user guides, additional tutorials, and presentations.
+Peruse the  **[Advanced guide](../../static/img/BI_quick_user_guide1_2.pdf)**
+ , additional tutorials, and presentations.

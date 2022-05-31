@@ -5,7 +5,7 @@ sidebar_position: 3
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## To begin the view of examination
+### To begin the view of examination
 
 Once the images are opened,
 you can right-click **99Tc** in the right  of the bar.
@@ -13,54 +13,8 @@ you can right-click **99Tc** in the right  of the bar.
 ![](../../static/img/99tc.png )
 
 Then you can select your exam type.
-<Tabs>
-  <TabItem value="Generic" label="Generic">
-    Dynamic Quantification
-    <br/>
-    Static Quantification
-  </TabItem>
-    <TabItem value="Bone" label="Bone">
-    Bone Scintigraphy
-  </TabItem>
-    <TabItem value="Cardiac" label="Cardiac">
-    Amylose
-    <br/>
-    MIBG Quant
-  </TabItem>
-    <TabItem value="Endocrinology" label="Endocrinology">
-    Thyroid : Tc Uptake
-    <br/>
-    Parathyroid : Parathyroid
-  </TabItem>
-    <TabItem value="Gastric" label="Gastric">
-    Gastric Emptying Solid
-    <br/>
-    Gastric Emptying Liquid
-    <br/>
-    Esophageal Transit
-  </TabItem>
-    <TabItem value="Lymphatic" label="Lymphatic">
-    Lymphoscitigraphy
-  </TabItem>
-    <TabItem value="Pulmonary" label="Pulmonary">
-    	Pulmonary Shunt
-  </TabItem>
-   <TabItem value="Renal" label="Renal">
-     Renogram
-    <br/>
-      DMSA
-    <br/>
-      Renogram Follow-Up
-  </TabItem>
-    <TabItem value="Salyiary Glands" label="Salyiary Glands">
-      Salyiary Glands
-  </TabItem>
-   <TabItem value="Others" label="Others">
-     Schaefer Calibration
-  </TabItem>
-</Tabs>
 
-## Select exam type
+### Select exam type
 
  In this example we will select **Castric Emptying Solid**.
 
@@ -68,28 +22,35 @@ Then you can select your exam type.
 
 Then it will open all the images you read before.
 
-Click  **Select All** of :
+<kbd class="key">Ctrl</kbd>
++
+<span class="key"><img src="https://upload.wikimedia.org/
+wikipedia/commons/2/27/LMB_click.svg" width="20"/> Left Click </span> to select images you want:
 
 ![](../../static/img/selectDICOM.png )
 
-## Specific properties 
+## An exemple (Gastric Emptying Solid) to show the process
 
 Then you'll have some specific properties of the examination that the doctor need to 
 fill. Then click at **Validate**.
 
 ![](../../static/img/ingestionTime.png )
 
-## Delimit the range 
+### Delimit the range 
 
 Left-click to delimit the range of stomach, right-click to close the range.
 
 ![](../../static/img/delimitStomach.png )
 
-Click at next, then delimit the range of intestine.
+Click at **next** at bottom : 
+
+![](../../static/img/next.png )
+
+Then delimit the range of intestine.
 
 ![](../../static/img/delimitIntestine.png )
 
-### Repeated Steps
+#### Repeated Steps
 
 Click at **next** to ajust the range of stomach of a new image.
 
@@ -101,7 +62,7 @@ Click at next to ajust the range of intestine in of this image.
 
 Repeat **the 2 steps above** until the range of all images are adjusted.
 
-## Results
+### Results
 
 At top left you have two options to view the result.
 
