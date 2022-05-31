@@ -67,7 +67,7 @@ const config = {
             position: 'left'
           },
           {
-            href: 'https://github.com/facebook/docusaurus', // a changer pour le git du projet
+            href: 'https://github.com/salimkanoun/Scintigraphy', // a changer pour le git du projet
             label: 'GitHub',
             position: 'right',
           },
