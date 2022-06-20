@@ -12,6 +12,6 @@ Fiji's PET/CT viewer allows you to
 - Quantify uptake with SUV / SUL
 - Segment uptake (such as TMTV calculation)
 
-The PET/CT viewer is included when installing our Fiji's plugins [see related documentation](../Getting_started/Getting-started)
+The PET/CT viewer is included when installing our Fiji's plugins [see related documentation](../Getting_started/Install.md)
 
 

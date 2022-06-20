@@ -8,7 +8,7 @@ const title = 'Appli.Scinti';
 const config = {
   title: title,
   tagline: 'Developing Applications in Nuclear Medicine',
-  url: 'https://salimkanoun.github.io/',
+  url: 'https://petctviewer.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

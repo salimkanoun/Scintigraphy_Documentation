@@ -1,7 +1,7 @@
 {
   "name": "scintigraphy-documentation",
   "version": "0.1.0",
-  "homepage": "https://salimkanoun.github.io/Scintigraphy_Documentation",
+  "homepage": "https://salimkanoun.github.io/Scintigraphy_Documentation/",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",

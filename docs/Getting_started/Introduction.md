@@ -14,4 +14,4 @@ We distribute our software as Fiji's Plugin available from the official Fiji rep
 To benefit for our packages, follow these simple 2 steps :
 
 - [Download Fiji](./Download)
-- [Install Our Plugin](./Installation)
+- [Install Our Plugin](./Install.md)
