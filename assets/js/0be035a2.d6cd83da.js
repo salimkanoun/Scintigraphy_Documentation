@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkscintigraphy_documentation=self.webpackChunkscintigraphy_documentation||[]).push([[7424],{2:function(t){t.exports=JSON.parse('{"permalink":"/Scintigraphy_Documentation/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
