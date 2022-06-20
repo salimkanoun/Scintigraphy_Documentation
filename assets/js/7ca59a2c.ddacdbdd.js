@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkscintigraphy_documentation=self.webpackChunkscintigraphy_documentation||[]).push([[732],{4790:function(a){a.exports=JSON.parse('{"label":"docusaurus","permalink":"/Scintigraphy_Documentation/blog/tags/docusaurus","allTagsPath":"/Scintigraphy_Documentation/blog/tags","count":4}')}}]);
