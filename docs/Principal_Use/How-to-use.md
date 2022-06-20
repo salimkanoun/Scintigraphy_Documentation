@@ -74,7 +74,9 @@ Gastric only:
 
 Intragastric distribution:
 
+<!---
 ![](../../static/img/intragastricDistribution.png )
+--->
 
 You have the bouton **Capture** at bottom right to save the result.
 
