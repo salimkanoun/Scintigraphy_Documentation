@@ -6,33 +6,16 @@ import TabItem from '@theme/TabItem';
 
 # Introduction
 
-## What is Fiji?
-<img src="https://imagej.net/media/icons/fiji.svg" width="100" height="100"/>
-Fiji Is Just ImageJ—a “batteries-included” distribution of ImageJ and ImageJ2 which includes many useful plugins contributed by the community.
+## What are you doing ? 
 
-## What does Fiji provide?
+Conventional Scintigraphy and PET/CT viewer aims to provide up to date,
+free and open source, software tools for nuclear medicine.
 
+These software tools are provided for scientific needs which includes : 
+- Research topics
+- Deep understanding of nuclear medicine image processing
+- Teaching
 
-<Tabs>
-  <TabItem value="Application" label="Application">
-    A user interface with functions to load, display, and save images.
-  </TabItem>
-    <TabItem value="Techniques" label="Techniques">
-   mage processing, colocalization, deconvolution, registration, segmentation,
-    tracking, visualization and much more.
-  </TabItem>
-    <TabItem value="Plugins" label="Plugins">
-    	A powerful mechanism for extending ImageJ in all kinds of useful ways.
-  </TabItem>
-    <TabItem value="Scripting" label="Scripting">
-    	Automated, reproducible workflows via scripts and macros.
-  </TabItem>
-<TabItem value="Forum" label="Forum">
-    A vibrant, diverse, and helpful user community.
-  </TabItem>
- 
-</Tabs>
+## Can I contribute ? 
 
-Fiji’s extensibility is the root of its effectiveness: many advanced 
-image-processing methods are not provided by the core application, but rather are 
-plugins written by specialists in specific fields.
+Of course ! Do not hesitate to share your ideas and challenges and try to figure out solutions with us.

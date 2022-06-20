@@ -54,7 +54,7 @@ export default function Home() {
       <HomepageHeader />
       <div className={styles.avantFeature}>
         <img className={styles.icone} src={Icone} />
-        <h1>Our Services</h1>
+        <h1>Our Software</h1>
         <h2>Need a Scintigraphy Application?</h2>
         <p>We have developped several tools for image processing in Scintigraphy.</p>
       </div>

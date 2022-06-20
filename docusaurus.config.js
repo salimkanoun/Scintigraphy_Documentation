@@ -9,7 +9,7 @@ const config = {
   title: title,
   tagline: 'Developing Applications in Nuclear Medicine',
   url: 'https://salimkanoun.github.io/',
-  baseUrl: '/Scintigraphy_Documentation/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',// a changer
@@ -49,18 +49,18 @@ const config = {
         },*/
         items: [
           {
-            to: 'about_us',
-            label: 'About us',
-            position: 'left'
-          },{
-            to: 'our_services',
-            label: 'Our services',
+            to: 'our_software',
+            label: 'Our Software',
             position: 'left'
           },{
             type: 'doc',
             docId: 'intro',
             position: 'left',
             label: 'Documentation'
+          },{
+            to: 'about_us',
+            label: 'About us',
+            position: 'left'
           },{
             to: 'contact_us',
             label: 'Contact us',

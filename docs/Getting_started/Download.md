@@ -1,8 +1,23 @@
 ---
 sidebar_position: 2
 ---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
+# Download
+
+## System requirements
+
+Fiji is supported on the following systems:
+
+- Windows XP, Vista, 7, 8, 10, 11, etc.
+- Mac OS X 10.8 “Mountain Lion” or later
+- Linux on amd64 and x86 architectures
+
+However, Fiji (like ImageJ) should run on any system for which a Java 8 runtime is available (Solaris, Raspbian, etc.).
+
+## Packages
 
 <Tabs>
   <TabItem value="win" label="Windows">
@@ -16,15 +31,6 @@ import TabItem from '@theme/TabItem';
           </a>
         </div>
       </div>
-    <div class="col col--3">
-      <div class="col-demo">
-        <a href="https://downloads.imagej.net/fiji/latest/fiji-win32.zip" target="_blank">
-          <img alt="Windows (64-bit)" src=" https://imagej.net/media/icons/windows.svg" width="129" height="128"/>
-          <br/>
-          32-bits
-        </a>
-      </div>
-    </div>
   </div>
   </TabItem>
   <TabItem value="mac" label="MacOS">
@@ -49,17 +55,3 @@ import TabItem from '@theme/TabItem';
     </a>
   </TabItem>
 </Tabs>
-
-
-[**Fiji**](https://imagej.net/software/fiji/) is a distribution of ImageJ which includes many useful plugins [**contributed by the community.**](https://imagej.net/contribute/fiji)
-
-
-Anything **unclear** or **buggy** in this app? [**Please report it!**](../../contact_us)
-
-## System requirements
-Fiji is supported on the following systems:
-- Windows XP, Vista, 7, 8, 10, 11, etc.
-- Mac OS X 10.8 “Mountain Lion” or later
-- Linux on amd64 and x86 architectures
-
-However, Fiji (like ImageJ) should run on any system for which a Java 8 runtime is available (Solaris, Raspbian, etc.).

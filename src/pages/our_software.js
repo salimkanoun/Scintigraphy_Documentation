@@ -8,7 +8,7 @@ function HomepageHeader() {
   return (
     <header>
       <div>
-        <h1 className={styles.grandTitre}>Our services</h1>
+        <h1 className={styles.grandTitre}>Our Software</h1>
       </div>
     </header>
   );

@@ -2,17 +2,19 @@
 sidebar_position: 3
 ---
 
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+# Nuclear Medicine
+
 ### To begin the view of examination
 
-Once the images are opened,
-you can right-click **99Tc** in the right  of the bar.
+Once the images are opened, **right-click 99Tc** in the bar.
 
 ![](../../static/img/99tc.png )
 
-Then you can select your exam type.
+Then select your processing software tool.
 
 ### Select exam type
 
@@ -20,12 +22,12 @@ Then you can select your exam type.
 
 ![](../../static/img/gastric.png )
 
-Then it will open all the images you read before.
+Then it will list all the images you read before.
 
 <kbd class="key">Ctrl</kbd>
 +
 <span class="key"><img src="https://upload.wikimedia.org/
-wikipedia/commons/2/27/LMB_click.svg" width="20"/> Left Click </span> to select images you want:
+wikipedia/commons/2/27/LMB_click.svg" width="20"/> Left Click </span> to select many images you want :
 
 ![](../../static/img/selectDICOM.png )
 
